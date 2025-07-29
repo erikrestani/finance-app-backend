@@ -161,19 +161,6 @@ Authorization: Bearer <jwt_token>
 }
 ```
 
-### Health Check
-
-#### GET `/health`
-Check API status.
-
-**Response:**
-```json
-{
-  "status": "OK",
-  "timestamp": "2024-01-01T00:00:00.000Z"
-}
-```
-
 ## 🔒 Security
 
 - Passwords are hashed with bcrypt (salt rounds: 12)
